@@ -1,4 +1,4 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded",()=>{
-	console.log("DOM load success")
+	document.querySelector("body").innerText="DOM load success";
 })
